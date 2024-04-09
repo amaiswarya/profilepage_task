@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:task/common_widgets/countryNameWidget.dart';
-import 'package:task/common_widgets/followerWidget.dart';
-import 'package:task/common_widgets/postWidget.dart';
-import 'package:task/common_widgets/sizedboxWidget.dart';
-import 'package:task/common_widgets/textWidget.dart';
+import 'package:task/common_widgets/country_name_widget.dart';
+import 'package:task/common_widgets/follower_widget.dart';
+import 'package:task/common_widgets/post_widget.dart';
+import 'package:task/common_widgets/sizedbox_widget.dart';
+import 'package:task/common_widgets/text_widget.dart';
 
 class ProfilePageScreen extends StatelessWidget {
   const ProfilePageScreen({super.key});
@@ -110,7 +110,7 @@ class ProfilePageScreen extends StatelessWidget {
                         ),
                         const TextWidget(
                             title:
-                                "My camera is my travel companion,we are always on a missiom to discover the beauty of the world,one shot at a time",
+                                "My camera is my travel companion,we are always on a mission to discover the beauty of the world,one shot at a time",
                             size: 14,
                             fontWeight: FontWeight.bold)
                       ],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task/common_widgets/sizedboxWidget.dart';
+import 'package:task/common_widgets/sizedbox_widget.dart';
 
 class FollowerWidget extends StatelessWidget {
   const FollowerWidget({
